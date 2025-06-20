@@ -7,7 +7,7 @@ variable "aws_region" {
 variable "ami_id" {
   description = "Amazon Machine Image ID"
   type        = string
-  default     = "ami-0c55b159cbfafe1f0" # Ubuntu 22.04 LTS in us-east-1
+  default     = "ami-020cba7c55df1f615" # Ubuntu 22.04 LTS in us-east-1
 }
 
 variable "instance_type" {
